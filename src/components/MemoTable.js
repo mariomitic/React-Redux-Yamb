@@ -2,9 +2,13 @@ import React from 'react'
 import './MainStyle.css'
 
 function MemoTable() {
+
   return (
-    
-        <div className='memoTable'>
+   <div> 
+    <div className='title'>Yamb Game</div>
+    <div className = 'sub'> Redux </div>
+
+  <div className='memoTable'>
     <div className='cellBorder'><b>Game</b></div>
     <div className='cellBorder'><b>1</b></div>
     <div className='cellBorder'><b>2</b></div>
@@ -22,10 +26,8 @@ function MemoTable() {
     <div className='cellBorder'><b>Poker</b></div>
     <div className='cellBorder'><b>Yamb</b></div>
     <div className='sumBackground cellBorder'><b>Sum</b></div>
-        </div>
-
-    
-  )
-}
+  </div>
+  </div>
+  )}
 
 export default MemoTable

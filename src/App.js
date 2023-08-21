@@ -11,7 +11,6 @@ function App() {
   return (
     <Provider store={store} >
     <div className='App grid-container'>
-      <div className='title'>Yamb Game</div>
       <Dices />
     </div>
     </Provider>

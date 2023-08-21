@@ -1,5 +1,100 @@
 export const ROLL_DICE = 'ROLL_DICE'
-export const ROLL_DICE2 = 'ROLL_DICE2'
 
 export const KEEP_DICE1 = 'KEEP_DICE1'
 export const RETURN_DICE1 = 'RETURN_DICE1'
+
+export const KEEP_DICE2 = 'KEEP_DICE2'
+export const RETURN_DICE2 = 'RETURN_DICE2'
+
+export const KEEP_DICE3 = 'KEEP_DICE3'
+export const RETURN_DICE3 = 'RETURN_DICE3'
+
+export const KEEP_DICE4 = 'KEEP_DICE4'
+export const RETURN_DICE4 = 'RETURN_DICE4'
+
+export const KEEP_DICE5 = 'KEEP_DICE5'
+export const RETURN_DICE5 = 'RETURN_DICE5'
+
+export const KEEP_DICE6 = 'KEEP_DICE6'
+export const RETURN_DICE6 = 'RETURN_DICE6'
+
+export const CALC_ONE_DOWN = 'CALC_ONE_DOWN'
+export const CALC_ONE_FREE = 'CALC_ONE_FREE'
+export const CALC_ONE_UP = 'CALC_ONE_UP'
+export const CALC_ONE_CALL = 'CALC_ONE_CALL'
+export const CALC_ONE_HAND = 'CALC_ONE_HAND'
+
+export const CALC_TWO_DOWN = 'CALC_TWO_DOWN'
+export const CALC_TWO_FREE = 'CALC_TWO_FREE'
+export const CALC_TWO_UP = 'CALC_TWO_UP'
+export const CALC_TWO_CALL = 'CALC_TWO_CALL'
+export const CALC_TWO_HAND = 'CALC_TWO_HAND'
+
+export const CALC_THREE_DOWN = 'CALC_THREE_DOWN'
+export const CALC_THREE_FREE = 'CALC_THREE_FREE'
+export const CALC_THREE_UP = 'CALC_THREE_UP'
+export const CALC_THREE_CALL = 'CALC_THREE_CALL'
+export const CALC_THREE_HAND = 'CALC_THREE_HAND'
+
+export const CALC_FOUR_DOWN = 'CALC_FOUR_DOWN'
+export const CALC_FOUR_FREE = 'CALC_FOUR_FREE'
+export const CALC_FOUR_UP = 'CALC_FOUR_UP'
+export const CALC_FOUR_CALL = 'CALC_FOUR_CALL'
+export const CALC_FOUR_HAND = 'CALC_FOUR_HAND'
+
+export const CALC_FIVE_DOWN = 'CALC_FIVE_DOWN'
+export const CALC_FIVE_FREE = 'CALC_FIVE_FREE'
+export const CALC_FIVE_UP = 'CALC_FIVE_UP'
+export const CALC_FIVE_CALL = 'CALC_FIVE_CALL'
+export const CALC_FIVE_HAND = 'CALC_FIVE_HAND'
+
+export const CALC_SIX_DOWN = 'CALC_SIX_DOWN'
+export const CALC_SIX_FREE = 'CALC_SIX_FREE'
+export const CALC_SIX_UP = 'CALC_SIX_UP'
+export const CALC_SIX_CALL = 'CALC_SIX_CALL'
+export const CALC_SIX_HAND = 'CALC_SIX_HAND'
+
+export const CALC_MAX_DOWN = 'CALC_MAX_DOWN'
+export const CALC_MAX_FREE = 'CALC_MAX_FREE'
+export const CALC_MAX_UP = 'CALC_MAX_UP'
+export const CALC_MAX_CALL = 'CALC_MAX_CALL'
+export const CALC_MAX_HAND = 'CALC_MAX_HAND'
+
+export const CALC_MIN_DOWN = 'CALC_MIN_DOWN'
+export const CALC_MIN_FREE = 'CALC_MIN_FREE'
+export const CALC_MIN_UP = 'CALC_MIN_UP'
+export const CALC_MIN_CALL = 'CALC_MIN_CALL'
+export const CALC_MIN_HAND = 'CALC_MIN_HAND'
+
+export const CALC_THREE_OF_A_KIND_DOWN = 'CALC_THREE_OF_A_KIND_DOWN'
+export const CALC_THREE_OF_A_KIND_FREE = 'CALC_THREE_OF_A_KIND_FREE'
+export const CALC_THREE_OF_A_KIND_UP = 'CALC_THREE_OF_A_KIND_UP'
+export const CALC_THREE_OF_A_KIND_CALL = 'CALC_THREE_OF_A_KIND_CALL'
+export const CALC_THREE_OF_A_KIND_HAND = 'CALC_THREE_OF_A_KIND_HAND'
+
+export const CALC_SCALE_DOWN = 'CALC_SCALE_DOWN'
+export const CALC_SCALE_FREE = 'CALC_SCALE_FREE'
+export const CALC_SCALE_UP = 'CALC_SCALE_UP'
+export const CALC_SCALE_CALL = 'CALC_SCALE_CALL'
+export const CALC_SCALE_HAND = 'CALC_SCALE_HAND'
+
+export const CALC_FULL_DOWN = 'CALC_FULL_DOWN'
+export const CALC_FULL_FREE = 'CALC_FULL_FREE'
+export const CALC_FULL_UP = 'CALC_FULL_UP'
+export const CALC_FULL_CALL = 'CALC_FULL_CALL'
+export const CALC_FULL_HAND = 'CALC_FULL_HAND'
+
+export const CALC_POKER_DOWN = 'CALC_POKER_DOWN'
+export const CALC_POKER_FREE = 'CALC_POKER_FREE'
+export const CALC_POKER_UP = 'CALC_POKER_UP'
+export const CALC_POKER_CALL = 'CALC_POKER_CALL'
+export const CALC_POKER_HAND = 'CALC_POKER_HAND'
+
+export const CALC_YAMB_DOWN = 'CALC_YAMB_DOWN'
+export const CALC_YAMB_FREE = 'CALC_YAMB_FREE'
+export const CALC_YAMB_UP = 'CALC_YAMB_UP'
+export const CALC_YAMB_CALL = 'CALC_YAMB_CALL'
+export const CALC_YAMB_HAND = 'CALC_YAMB_HAND'
+
+export const CLOSE_ALERT = 'CLOSE_ALERT'
+export const DISPLAY_RULES = 'DISPLAY_RULES'

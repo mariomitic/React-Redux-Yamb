@@ -12,6 +12,28 @@
 
 }
 
+.sub {
+    color: rgb(84, 84, 173);
+    font-family: Calibri;
+    font-size: 100%;
+    position: relative;
+    left: -30%;
+    margin: 10px;
+    display: flex;
+    position: absolute;  
+    top: 60px;
+    left: 275px;
+
+}
+
+.cellBorder {
+    border: 2px solid black;
+    margin: 2px;
+    height: 30px;
+    font-size: 125%;
+    border-radius: 5px;
+    }
+
 .memoTable, .downColumn, .freeColumn, .upColumn, .callColumn, .handColumn, .sumColumn{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -67,59 +89,6 @@
 }
 
 
-.memoTable{
-    left: 70px;
-}
-.downColumn{
-    left: 150px;
-}
-.freeColumn{
-    left:230px
-}
-.upColumn{
-    left: 310px;
-}
-.callColumn{
-    left: 390px;
-}
-.handColumn{
-    left: 470px;
-}
-.sumColumn{
-    left: 550px;
-}
-
-.dicesThrow{
-    display: flex;
-    position: absolute;  
-    top: 300px;
-    left: 650px;
-}
-
-.dicesKeep{
-    display: flex;
-    position: absolute;  
-    top: 375px;
-    left: 650px;
-}
-
-.countThrow{
-    display: flex;
-    position: absolute;  
-    top: 235px;
-    left: 695px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-}
-
-
-.cellBorder {
-border: 2px solid black;
-margin: 2px;
-height: 30px;
-font-size: 125%;
-border-radius: 5px;
-}
 
 .sumSpacing {
 visibility: hidden;
@@ -195,5 +164,134 @@ font-size: 300%;
     color: red;
 }
 
+.diceAlert{
+    z-index: 2;
+    border: 2px solid;
+    border-color: aliceblue;
+    opacity: 1;
+    position: fixed;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;;
+    top: 300px;
+    left: 415px;
+    background-color:  rgb(243, 97, 116);
+    text-align: center;
+}
 
 
+.ok_btn{
+    border: 2px solid;
+    border-color: aliceblue;
+    padding: 10px 15px;
+    background-color:  rgb(124, 97, 243);
+    border-radius: 10px;
+}
+
+
+.ok_btn:hover{
+    background-color: yellow;
+}
+
+.freezeBackground {
+     pointer-events: none;
+}
+
+.temporarilyMute {
+    pointer-events: none;
+}
+
+.calledCell {
+    background-color: yellow;
+    transform: scale(1.15);
+
+  }
+
+
+  /* rules */
+  
+.turnRed{
+    color: red;
+}
+
+.calledCell {
+    background-color: yellow;
+    transform: scale(1.15);
+}
+
+.bluredBackground {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+.rules_btn{
+
+    position: fixed;
+    top: 55px;
+    left: 425px;
+    background-color:  rgb(124, 97, 243);
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+
+.rules_btn:hover{
+    background-color: yellow;
+}
+
+.popuptext{
+    z-index: 2;
+    border: 2px solid;
+    border-color: aliceblue;
+    opacity: 1;
+    position: fixed;
+    border-radius: 10px;
+    width: 650px;
+    height: 700px;;
+    top: 50px;
+    left: 415px;
+    background-color:  rgb(124, 97, 243);
+    text-align: center;
+    
+}
+
+.rulesTitle {
+    color: greenyellow;
+}
+
+
+.close_btn{
+    position: fixed;
+    left: 1017px;
+    top: 50px;
+    border-radius: 10px;
+    background-color:  rgb(124, 97, 243);
+    border: 2px solid;
+    border-color: aliceblue;
+}
+
+.close_btn:hover{
+    background-color: rgb(156, 58, 58);
+}
+
+.bluredBackground {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+  /* rules */
+
+  .endGame{
+    z-index: 2;
+    border: 2px solid;
+    border-color: aliceblue;
+    opacity: 1;
+    position: fixed;
+    border-radius: 5px;
+    width: 350px;
+    height: 185px;;
+    top: 300px;
+    left: 415px;
+    background-color:  rgb(124, 97, 243);
+    text-align: center;
+}
