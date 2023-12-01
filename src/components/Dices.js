@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import './MainStyle.css'
+//import './MainStyle.css'
 import { connect } from 'react-redux'
 import { rollDice } from '../redux/dices/dicesAction'
 import Calculations from './Calculations'

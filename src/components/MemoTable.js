@@ -1,12 +1,12 @@
 import React from 'react'
-import './MainStyle.css'
+//import './MainStyle.css'
 
 function MemoTable() {
 
   return (
    <div> 
     <div className='title'>Yamb Game</div>
-    <div className = 'sub'> Redux </div>
+    <div className = 'sub'> Redux - by MAXA</div>
 
   <div className='memoTable'>
     <div className='cellBorder'><b>Game</b></div>

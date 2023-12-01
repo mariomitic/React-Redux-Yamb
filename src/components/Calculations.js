@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './MainStyle.css'
+//import './MainStyle.css'
 
 
 import MemoTable from './MemoTable'

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { connect } from 'react-redux'
-import './MainStyle.css'
+//import './MainStyle.css'
 
 function SumColumn(props) {
 
