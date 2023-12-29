@@ -91,7 +91,7 @@ window.addEventListener('contextmenu', (e) => {
           <br></br>
              3. "Up" column can be entered from the bottom up.
           <br></br>
-             4. "Call" column can be entered randomly, each cell must be called after first throw (right click).
+             4. "Call" column can be entered randomly, each cell must be called after first throw (right click/hold).
           <br></br>
              5. "Hand" column can be entered random only after first throw.</p>
 
