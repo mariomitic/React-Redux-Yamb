@@ -7,10 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
  
   /* background: linear-gradient(-45deg, #e174e3, #bd60e5, #23a6d5, #23d5ab); */
-  background-color: rgb(175, 125, 223);
-	background-size: 400% 400%;
+  /* background-color: rgb(175, 125, 223); */
+  background-image: url('../public/large background.png');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 	/* animation: gradient 30s ease infinite; */
-	height: 100vh;
+	/* height: 100vh; */
+  backdrop-filter: blur(5px);
 }
 
   @keyframes gradient {
